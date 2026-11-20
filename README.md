@@ -143,6 +143,7 @@ The Windows workflow produces an x64 ZIP. When `WINDOWS_CERTIFICATE` and `WINDOW
 - Higher OpenGL feature tiers enable faster rendering paths when the context supports them.
 - macOS uses renderer paths compatible with Apple's OpenGL ceiling.
 - The Windows package includes a Mesa llvmpipe fallback.
+- `standard_of_iron --version` prints the application version and exits; `--help` lists all available command-line options.
 - The separate CPU rasterizer can be selected with `--force-software`; it is a diagnostic/reduced-fidelity fallback rather than the normal renderer.
 
 ### Source build
